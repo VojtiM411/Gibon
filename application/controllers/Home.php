@@ -8,4 +8,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('header');
 		$this->load->view('skoly');
 	}
+	public function skoly()
+	{
+        $this->load->model("Main");
+        $dataSkoly["getSkoly"] = $this->MainModel->getSkoly();
+        $this->load->view("header");
+        $this->load->view("skola", $dataSkoly);
+	}
 }
