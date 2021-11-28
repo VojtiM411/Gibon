@@ -6,15 +6,19 @@
 </head>
 <body>
 <ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link" href="#">Školy</a>
+  <li class="nav-item"> 
+    <a class="nav-link" href="/Gibon/welcome">Hlavní strana</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"></a>
+    <a class="nav-link" href="/Gibon/welcome/skoly">Seznam škol</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/auth/login">Přihlášení</a>
+    <a class="nav-link" href="/Gibon/welcome/login">Přihlášení</a>
   </li>
-</ul> 
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/VojtiM411/Gibon.git" target="_blank">GitHub</a>
+  </li>
+</ul>
+<br>
 </body>
 </html>
