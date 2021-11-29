@@ -11,7 +11,7 @@ class Auth extends CI_Controller
 
 	public function __construct()
 	{
-		parent::__construct();
+		parent::__construct('gibon');
 		$this->load->database();
 		$this->load->library(['ion_auth', 'form_validation']);
 		$this->load->helper(['url', 'language']);

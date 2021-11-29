@@ -13,6 +13,9 @@
     <a class="nav-link" href="/Gibon/welcome/skoly">Seznam škol</a>
   </li>
   <li class="nav-item">
+    <a class="nav-link" href="/Gibon/welcome/prijati">Seznam Přijatých žáků</a>
+  </li>
+  <li class="nav-item">
     <a class="nav-link" href="/Gibon/welcome/login">Přihlášení</a>
   </li>
   <li class="nav-item">
