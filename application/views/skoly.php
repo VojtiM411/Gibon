@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
-<body class="container">
+<body>
+<div class="container">    
     <div class="table-striped">
         <table class="table table-bordered">
             <tr class="thead-dark">
@@ -18,7 +19,7 @@
             <?php
             if($getSkoly->num_rows() > 0)
             {
-                foreach($getSkoly->result() as $row)
+                foreach($getSkoly   ->result() as $row)
                 {
                     ?>
                     <tr>
@@ -40,5 +41,6 @@
             ?>
         </table>
     </div>
+</div>
 </body>
 </html>

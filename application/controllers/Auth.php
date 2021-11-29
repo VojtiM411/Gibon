@@ -30,7 +30,8 @@ class Auth extends CI_Controller
 		if (!$this->ion_auth->logged_in())
 		{
 			// redirect them to the login page
-			redirect('auth/login', 'refresh');
+			$this->load->view('loggedin');
+			//redirect('loggedin', 'refresh');
 		}
 		else if (!$this->ion_auth->is_admin()) // remove this elseif if you want to enable this for non-admins
 		{
